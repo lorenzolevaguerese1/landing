@@ -1,0 +1,28 @@
+/* Importing Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Roboto:wght@500;700;900&display=swap');
+
+/* Importing all components file */
+@import url("components/avatar.css");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/form.css");
+
+/* General style rules (fonts and colours) */
+
+body {
+	font-family: 'Lora', serif;
+	background: rgb(230,230,230);
+	font-size: 18px;
+	margin: 0px;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+#text-space {
+	margin-top: 70px;
+}
